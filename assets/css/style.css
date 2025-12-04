@@ -110,10 +110,11 @@
   }
   
   .hero-img {
-    width: 180px;                /* Adjust size from 150–220px if needed */
-    height: 180px;
+    width: 240px;                /* Adjust size from 150–220px if needed */
+    height: 240px;
     object-fit: cover;
-    border-radius: 50%;          /* Makes it a perfect circle */
+    border-radius: 50%;    
+    margin-top: 12.5%;
     margin-bottom: 1rem;
     border: 3px solid var(--accent);
     box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
@@ -151,8 +152,11 @@
   
   .hero-side {
     display: flex;
+    justify-content: center;
     align-items: center;
+    margin-left: 2rem; /* Increase or decrease as needed */
   }
+  
   
   .hero-card {
     border-radius: var(--radius-xl);
@@ -261,8 +265,21 @@
     border-radius: var(--radius-lg);
     border: 1px solid rgba(148, 163, 184, 0.2);
     padding: 1.4rem 1.5rem 1.3rem;
-    background: radial-gradient(circle at top left, var(--accent-soft), #020617);
+    background: linear-gradient(
+      to bottom right,
+      rgba(56, 189, 248, 0.08),
+      rgba(2, 6, 23, 0.95)
+    );
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.25s ease, border-color 0.2s ease;
   }
+  
+  .project-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+    box-shadow: 0 12px 35px rgba(56, 189, 248, 0.25);
+  }
+  
   
   .project-card h3 {
     margin-top: 0;
@@ -353,10 +370,23 @@
   
   .skills-group {
     border-radius: var(--radius-lg);
-    border: 1px solid rgba(148, 163, 184, 0.2);
-    padding: 1rem 1.1rem;
-    background-color: rgba(15, 23, 42, 0.8);
+    border: 1px solid rgba(148, 163, 184, 0.3);
+    padding: 1.2rem 1.3rem;
+    background: linear-gradient(
+      to bottom right,
+      rgba(56, 189, 248, 0.08),
+      rgba(2, 6, 23, 0.95)
+    );
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.35);
+    transition: transform 0.2s ease, box-shadow 0.25s ease, border-color 0.2s ease;
   }
+  
+  .skills-group:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+    box-shadow: 0 12px 35px rgba(56, 189, 248, 0.25);
+  }
+  
   
   .skills-group h3 {
     margin-top: 0;
