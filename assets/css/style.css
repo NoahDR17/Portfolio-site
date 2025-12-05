@@ -146,15 +146,16 @@
   }
   
   .hero-img {
-    width: 240px;                /* Adjust size from 150–220px if needed */
-    height: 240px;
+    width: clamp(180px, 26vw, 260px);
+    aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 50%;    
-    margin-top: 12.5%;
+    border-radius: 50%;
+    margin-top: 0;
     margin-bottom: 1rem;
     border: 3px solid var(--accent);
     box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
   }
+  
   
   .hero-kicker {
     text-transform: uppercase;
@@ -572,6 +573,10 @@
       box-shadow: -4px 0 12px rgba(0, 0, 0, 0.3);
     }
 
+    .hero-img {
+        display: none;
+    }
+      
     .main-nav.active {
       transform: translateX(0);
     }
