@@ -30,7 +30,7 @@
 
 A **modern, responsive developer portfolio** built to showcase my full-stack projects, technical skills, and experience as a junior web developer. Designed with a focus on **clean UI**, **accessibility**, and **mobile-first responsiveness**.
 
-> 🔗 **Live Site:** [Add your deployed URL here]  
+> 🔗 **Live Site:** [https://noahdr17.github.io/Portfolio-site/]  
 > 📄 **Download CV:** Included on the site
 
 ---
@@ -245,9 +245,3 @@ Contact me if you wish to reuse or adapt any part of the design.
 ---
 
 <div align="center">
-
-**⭐ If you like this portfolio, please give it a star! ⭐**
-
-Made with ❤️ by [Noah Davis Reynolds](https://github.com/NoahDR17)
-
-</div>
