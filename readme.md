@@ -1,205 +1,253 @@
-🌐 Noah Davis Reynolds – Portfolio Website
+<div align="center">
 
-A modern, responsive developer portfolio built to showcase my full-stack projects, technical skills, and experience as a junior web developer.
-Designed with a focus on clean UI, accessibility, and mobile-first responsiveness.
+# 🌐 Noah Davis Reynolds – Portfolio Website
 
-Live site: add your deployed URL here
-Download CV: Included on the site.
+### A modern, responsive developer portfolio showcasing full-stack projects and technical skills
 
-🚀 Features
-🌟 Hero Section
+[![Live Site](https://img.shields.io/badge/Live-Site-blue?style=for-the-badge)](https://noahdr17.github.io/Portfolio-site/)
+[![GitHub](https://img.shields.io/badge/GitHub-NoahDR17-181717?style=for-the-badge&logo=github)](https://github.com/NoahDR17)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/noah-davis-reynolds-97a788281/)
 
-Clear introduction with name, role, and location
+</div>
 
-CTA buttons for viewing projects and downloading CV
+---
 
-Responsive profile image
+## 📋 Table of Contents
 
-🧩 Projects Showcase
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Setup & Usage](#-setup--usage)
+- [Featured Projects](#-featured-projects)
+- [Design Philosophy](#-design-philosophy)
+- [Contact](#-contact)
+- [License](#-license)
 
-Three showcased projects:
+---
 
-Event Hub – React + Django REST Framework
+## 🎯 Overview
 
-ReadTech – React + Tailwind CSS
+A **modern, responsive developer portfolio** built to showcase my full-stack projects, technical skills, and experience as a junior web developer. Designed with a focus on **clean UI**, **accessibility**, and **mobile-first responsiveness**.
 
-Recipe Blog – Django + PostgreSQL + Cloudinary
+> 🔗 **Live Site:** [Add your deployed URL here]  
+> 📄 **Download CV:** Included on the site
+
+---
+
+## 🚀 Features
+
+### 🌟 Hero Section
+- ✅ Clear introduction with name, role, and location
+- ✅ CTA buttons for viewing projects and downloading CV
+- ✅ Responsive profile image
+
+### 🧩 Projects Showcase
+Three showcased projects featuring:
+- **Event Hub** – React + Django REST Framework
+- **ReadTech** – React + Tailwind CSS
+- **Recipe Blog** – Django + PostgreSQL + Cloudinary
 
 Each project includes:
+- 📝 Short description
+- 🏷️ Tech stack badges
+- 🔗 GitHub repo link
+- 🌐 Live demo link
+- 🎨 Clean card layout with hover animations
 
-Short description
+### 👤 About Me
+- 📖 Short introduction outlining experience and goals
+- ⚡ Quick Facts list highlighting strengths and focus areas
 
-Tech stack badges
+### 🛠 Skills Grid
+Categorised skills including:
+- **Languages** (HTML5, CSS3, JavaScript, Python, SQL)
+- **Front-end** (React, Bootstrap, Responsive Design)
+- **Back-end** (Django, Django REST Framework, PostgreSQL)
+- **Tools & Workflow** (Git, VS Code, Agile, Deployment)
 
-GitHub repo link
+### ✉️ Contact Section
+- 📧 Email link
+- 💻 GitHub profile
+- 💼 LinkedIn profile
+- Clean and accessible layout
 
-Live demo link
+---
 
-Clean card layout with hover animations
+## 🛠 Tech Stack
 
-👤 About Me
+### **Front-end**
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-Short introduction outlining experience and goals
+- **HTML5** – Semantic markup
+- **CSS3** – Responsive grid, animations, custom styles
+- **JavaScript** – Interactive functionality
+- **Google Fonts** – Inter font family
 
-Quick Facts list highlighting strengths and focus areas
+### **Tools & Workflow**
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
 
-🛠 Skills Grid
+- **Git & GitHub** – Version control
+- **VS Code** – Code editor
+- **Mobile-first development** – Responsive design approach
+- **Accessibility considerations** – WCAG guidelines
 
-Categorised skills:
+---
 
-Languages
+## 📁 Project Structure
 
-Front-end
-
-Back-end
-
-Tools & Workflow
-
-Interactive skill cards
-
-✉️ Contact Section
-
-Email, GitHub, and LinkedIn links
-
-Clean and accessible layout
-
-🛠 Tech Stack
-
-Front-end:
-
-HTML5
-
-CSS3 (responsive grid, animations, custom styles)
-
-JavaScript
-
-Google Fonts (Inter)
-
-Tools & Workflow:
-
-Git & GitHub
-
-VS Code
-
-Mobile-first development
-
-Accessibility considerations
-
-📁 Project Structure
+```
 root/
-│ index.html
-│ README.md
 │
-├── assets/
-│   ├── css/
-│   │    └── style.css
-│   ├── js/
-│   │    └── script.js
-│   ├── img/
-│   │    ├── profile.jpg
-│   │    └── favicon.ico / pngs
-│   └── files/
-│        └── Noah-Davis-Reynolds-CV.pdf
+├── index.html              # Main HTML file
+├── README.md               # This file
+│
+└── assets/
+    ├── css/
+    │   └── style.css       # Main stylesheet
+    ├── js/
+    │   └── script.js       # JavaScript functionality
+    ├── img/
+    │   ├── profile.jpg     # Profile image
+    │   └── favicon files   # Favicon icons
+    └── files/
+        └── Noah-Davis-Reynolds-CV.pdf  # Downloadable CV
+```
 
-⚙️ Setup & Usage
+---
 
-Clone this repository:
+## ⚙️ Setup & Usage
 
-git clone https://github.com/<your-username>/<portfolio-repo>.git
+### **Quick Start**
 
-Open index.html in your browser.
-This is a static site — no build tools required.
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/NoahDR17/Portfolio-site.git
+   ```
 
-Deployment options:
+2. **Open in browser:**
+   ```bash
+   cd Portfolio-site
+   open index.html
+   ```
 
-GitHub Pages
+> 💡 **Note:** This is a static site — no build tools required!
 
-Netlify
+### **Deployment Options**
 
-Vercel
+Deploy this portfolio using any of these platforms:
 
-📚 Featured Projects
-Event Hub
+| Platform | Link |
+|----------|------|
+| 🌐 **GitHub Pages** | [GitHub Pages Docs](https://pages.github.com/) |
+| 🚀 **Netlify** | [Netlify Docs](https://www.netlify.com/) |
+| ⚡ **Vercel** | [Vercel Docs](https://vercel.com/) |
 
-Full-stack platform for discovering and interacting with music events.
-Built using React.js, Django REST Framework, and PostgreSQL.
+---
 
-Key Features:
+## 📚 Featured Projects
 
-Event creation with image uploads
+### 1️⃣ Event Hub
 
-Infinite scroll
+**Full-stack platform for discovering and interacting with music events.**
 
-Search & filtering
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 
-CRUD comments
+Built using **React.js**, **Django REST Framework**, and **PostgreSQL**.
 
-Authentication with roles & permissions
+#### **Key Features:**
+- 📸 Event creation with image uploads
+- ♾️ Infinite scroll
+- 🔍 Search & filtering
+- 💬 CRUD comments
+- 🔐 Authentication with roles & permissions
 
-GitHub Repo: https://github.com/NoahDR17/event-hub-frontend
+**Links:**  
+🔗 [GitHub Repo](https://github.com/NoahDR17/event-hub-frontend) | 🌐 [Live Demo](https://event-hub-frontend-30c8bbf9de26.herokuapp.com/)
 
-Live Demo: https://event-hub-frontend-30c8bbf9de26.herokuapp.com/
+---
 
-ReadTech
+### 2️⃣ ReadTech
 
-Platform for selling second-hand mobile phones in any condition.
-Built with React.js and Tailwind CSS.
+**Platform for selling second-hand mobile phones in any condition.**
 
-Key Features:
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
-Instant quote system
+Built with **React.js** and **Tailwind CSS**.
 
-Device condition workflow
+#### **Key Features:**
+- 💰 Instant quote system
+- 📱 Device condition workflow
+- 🎨 Clean, responsive UI
+- ✨ Smooth user experience
 
-Clean, responsive UI
+**Links:**  
+🔗 [GitHub Repo](https://github.com/NoahDR17/ReadTech-site) | 🌐 [Live Demo](https://read-tech-site.vercel.app/)
 
-Smooth user experience
+---
 
-GitHub Repo: https://github.com/NoahDR17/ReadTech-site
+### 3️⃣ Recipe Blog
 
-Live Demo: https://read-tech-site.vercel.app/
+**Full-stack recipe application using Django, PostgreSQL, and Cloudinary.**
 
-Recipe Blog
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
-Full-stack recipe application using Django, PostgreSQL, and Cloudinary.
+#### **Key Features:**
+- 🍳 CRUD recipes with image uploads
+- 🔐 Auth & email verification using Django Allauth
+- ⭐ Reviews & ratings
+- 👤 Profile pages
+- 🔍 Search & filtering tools
 
-Key Features:
+**Links:**  
+🔗 [GitHub Repo](https://github.com/NoahDR17/Recipe-Blog) | 🌐 [Live Demo](https://the-recipe-blog-2ab045f310be.herokuapp.com/)
 
-CRUD recipes with image uploads
+---
 
-Auth & email verification using Django Allauth
+## 🎨 Design Philosophy
 
-Reviews & ratings
+This portfolio embraces a **modern developer aesthetic** with the following principles:
 
-Profile pages
+- 🌙 **Dark mode aesthetic** inspired by modern dev tools
+- ✨ **Soft glow and gradient accents** for visual interest
+- 📐 **Strong visual hierarchy and spacing** for readability
+- 🎭 **Smooth hover animations** for interactivity
+- ♿ **Accessibility-first:** Semantic HTML, readable contrast, keyboard-friendly navigation
 
-Search & filtering tools
+---
 
-GitHub Repo: https://github.com/NoahDR17/Recipe-Blog
+## 📬 Contact
 
-Live Demo: https://the-recipe-blog-2ab045f310be.herokuapp.com/
+I'm always open to new opportunities, collaborations, and conversations!
 
-🎨 Design Philosophy
+| Platform | Link |
+|----------|------|
+| 📧 **Email** | [noahdavisreynolds@hotmail.com](mailto:noahdavisreynolds@hotmail.com) |
+| 💻 **GitHub** | [@NoahDR17](https://github.com/NoahDR17) |
+| 💼 **LinkedIn** | [Noah Davis Reynolds](https://www.linkedin.com/in/noah-davis-reynolds-97a788281/) |
 
-Dark mode aesthetic inspired by modern dev tools
+---
 
-Soft glow and gradient accents
+## 📝 License
 
-Strong visual hierarchy and spacing
-
-Smooth hover animations
-
-Accessibility: semantic HTML, readable contrast, keyboard-friendly
-
-📬 Contact
-
-Email: noahdavisreynolds@hotmail.com
-
-GitHub: https://github.com/NoahDR17
-
-LinkedIn: https://www.linkedin.com/in/noah-davis-reynolds-97a788281/
-
-📝 License
-
-This project is intended for personal portfolio and hiring use.
+This project is intended for **personal portfolio and hiring use**.  
 Contact me if you wish to reuse or adapt any part of the design.
+
+---
+
+<div align="center">
+
+**⭐ If you like this portfolio, please give it a star! ⭐**
+
+Made with ❤️ by [Noah Davis Reynolds](https://github.com/NoahDR17)
+
+</div>
