@@ -5,6 +5,7 @@
    :root {
     --bg: #0f172a;
     --bg-alt: #111827;
+    --bg-mobile-nav: rgba(15, 23, 42, 0.98);
     --surface: #020617;
     --text: #e5e7eb;
     --muted: #9ca3af;
@@ -551,7 +552,7 @@
      ========== */
 
   /* Mobile navigation styles */
-  @media (max-width: 639px) {
+  @media (max-width: 640px) {
     .mobile-menu-toggle {
       display: flex;
     }
@@ -560,7 +561,7 @@
       position: fixed;
       top: var(--header-height);
       right: 0;
-      background: rgba(15, 23, 42, 0.98);
+      background: var(--bg-mobile-nav);
       backdrop-filter: blur(10px);
       width: 100%;
       max-width: 280px;
@@ -597,7 +598,7 @@
     }
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 641px) {
     .hero-content {
       grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
       align-items: center;
